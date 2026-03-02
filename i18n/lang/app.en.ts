@@ -1,36 +1,37 @@
 const translation = {
-  common: {
-    welcome: 'Welcome to use',
-    appUnavailable: 'App is unavailable',
-    appUnkonwError: 'App is unavailable',
-  },
-  chat: {
-    newChat: 'New chat',
-    newChatDefaultName: 'New conversation',
-    openingStatementTitle: 'Opening statement',
-    powerBy: 'Powered by',
-    prompt: 'Prompt',
-    privatePromptConfigTitle: 'Conversation settings',
-    publicPromptConfigTitle: 'Initial Prompt',
-    configStatusDes: 'Before start, you can modify conversation settings',
-    configDisabled:
-      'Previous session settings have been used for this session.',
-    startChat: 'Start Chat',
-    privacyPolicyLeft:
-      'Please read the ',
-    privacyPolicyMiddle:
-      'privacy policy',
-    privacyPolicyRight:
-      ' provided by the app developer.',
-  },
-  errorMessage: {
-    valueOfVarRequired: 'Variables value can not be empty',
-    waitForResponse:
-      'Please wait for the response to the previous message to complete.',
-  },
-  variableTable: {
-    optional: 'Optional',
-  },
+common: {
+welcome: 'Вас приветствует MiraCore',
+appUnavailable: 'Сервис временно недоступен',
+appUnkonwError: 'Произошла неизвестная ошибка',
+},
+chat: {
+newChat: 'Новый диалог',
+newChatDefaultName: 'Новая беседа',
+openingStatementTitle: 'Приветствие',
+powerBy: 'Технологии',
+prompt: 'Инструкция',
+privatePromptConfigTitle: 'Настройки беседы',
+publicPromptConfigTitle: 'Стартовый запрос',
+configStatusDes: 'Перед началом вы можете изменить настройки беседы',
+configDisabled:
+'Для этой сессии использованы настройки предыдущего сеанса.',
+startChat: 'Начать чат',
+privacyPolicyLeft:
+'Пожалуйста, ознакомьтесь с ',
+privacyPolicyMiddle:
+'политикой конфиденциальности',
+privacyPolicyRight:
+', предоставленной разработчиком приложения.',
+},
+errorMessage: {
+valueOfVarRequired: 'Значения переменных не могут быть пустыми',
+waitForResponse:
+'Пожалуйста, дождитесь завершения ответа на предыдущее сообщение.',
+},
+variableTable: {
+optional: 'Необязательно',
+},
 }
 
 export default translation
+
