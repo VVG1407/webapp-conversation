@@ -128,3 +128,6 @@ a {
   background-clip: text;
   text-fill-color: transparent;
 }
+footer, .powered-by, a[href*="dify.ai"] {
+display: none !important;
+}
