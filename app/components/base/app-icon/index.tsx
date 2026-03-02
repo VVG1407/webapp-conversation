@@ -1,36 +1,12 @@
-import type { FC } from 'react'
-import classNames from 'classnames'
-import style from './style.module.css'
+import React from 'react'
 
-export interface AppIconProps {
-  size?: 'xs' | 'tiny' | 'small' | 'medium' | 'large'
-  rounded?: boolean
-  icon?: string
-  background?: string
-  className?: string
+const AppIcon = () => {
+return (
+<img
+src="/logo.png"
+className="h-8 w-8 rounded-full object-cover"
+style={{ minWidth: '32px', minHeight: '32px' }}
+alt="Mira"
+/>
+)
 }
-
-const AppIcon: FC<AppIconProps> = ({
-  size = 'medium',
-  rounded = false,
-  background,
-  className,
-}) => {
-  return (
-    <span
-      className={classNames(
-        style.appIcon,
-        size !== 'medium' && style[size],
-        rounded && style.rounded,
-        className ?? '',
-      )}
-      style={{
-        background,
-      }}
-    >
-      <img src="/logo.png" className="h-full w-full rounded-md object-cover" alt="Mira" />
-    </span>
-  )
-}
-
-export default AppIcon
