@@ -28,7 +28,7 @@ const AppIcon: FC<AppIconProps> = ({
         background,
       }}
     >
-      🤖
+      <img src="/logo.png" className="h-full w-full rounded-md object-cover" alt="Mira" />
     </span>
   )
 }
