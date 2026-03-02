@@ -30,7 +30,7 @@ const Header: FC<IHeaderProps> = ({
         )
         : <div></div>}
       <div className='flex items-center space-x-2'>
-        <AppIcon size="small" />
+        <img src="/logo.png" className="h-6 w-6 rounded-md" alt="logo" />
         <div className=" text-sm text-gray-800 font-bold">{title}</div>
       </div>
       {isMobile
